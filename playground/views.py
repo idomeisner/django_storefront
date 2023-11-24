@@ -10,4 +10,4 @@ def calculate():
 
 def say_hello(request):
     x = calculate()
-    return render(request, "hello.html", {"name": "Ido"})
+    return render(request, "hello.html", {"name": "Guest"})
